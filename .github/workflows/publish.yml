@@ -4,6 +4,7 @@ on:
   push:
     branches: # Snapshots
       - main
+      - gradle # TODO: remove before merge
     tags: ["**"] # Releases
 
 permissions:
